@@ -1,0 +1,24 @@
+# WallTracer
+This tool "Walltracer" is little script aiming to draw statictics on not authorized incoming ip requests recorded by a firewall installed on a basic internet server.
+This is what someones call the "Internet Background Noise". So I created some firewall rules as a spider web to catch theses undesirables requests and then I developped these scripts to better watch and understand what was knocking at my closed doors.
+
+## How to use
+
+### On linux
+1) Extract and convert log message to CSV file
+
+    ~# ./logparser.sh > log.csv
+
+### On Octave
+2) Analyse datas with Octave
+
+    \>> outputScript
+
+3) Observe the result
+
+![Plot](https://raw.githubusercontent.com/fbourge/WallTracer/master/incomtraffic.png)
+
+-----------------------------------------
+
+By trying to understand theses logs I posted something on Stackoverflow :
+![here](https://stackoverflow.com/questions/51756279/is-the-internet-background-noise-a-real-danger-or-a-negligible-parasite)
