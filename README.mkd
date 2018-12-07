@@ -5,16 +5,16 @@ This is what someones call the "Internet Background Noise". So I created some fi
 ## How to use
 
 ### On linux
-1) Extract and convert log message to CSV file
+1) Extract and convert log messages to CSV file
 
     ~# ./logparser.sh > log.csv
 
 ### On Octave
-2) Analyse datas with Octave
+2) Data analysis with Octave
 
     \>> outputScript
 
-3) Observe the result
+3) Watch you datas
 
 ![Plot](https://raw.githubusercontent.com/fbourge/WallTracer/master/incomtraffic.png)
 

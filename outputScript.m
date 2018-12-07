@@ -19,7 +19,7 @@
 
 pkg load io
 
-c = csv2cell("log.txt",";");
+c = csv2cell("log.csv",";");
 
 A = c(:,4);
 
