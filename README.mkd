@@ -5,16 +5,22 @@ This is what some call the "Internet Background Noise". So I created firewall ru
 ## How to use
 
 ### On linux
-1) Extract and convert log messages to CSV file
+1) Configure your firewall rules with the keyword "iptables_INPUT_denied"
+
+    For example on Iptable you can add the following line into /etc/iptables/rules.v4:
+
+    "-A INPUT -m limit --limit 3/min -j LOG --log-prefix "iptables_INPUT_denied: "
+
+2) Extract and convert log messages to CSV file
 
     ~# ./logparser.sh > log.csv
 
 ### On Octave
-2) Data analysis with Octave
+3) Data analysis with Octave
 
     \>> outputScript
 
-3) Watch you datas
+4) Watch your datas
 
 ![Plot](https://raw.githubusercontent.com/fbourge/WallTracer/master/incomtraffic.png)
 
