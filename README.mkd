@@ -1,6 +1,6 @@
 # WallTracer
-This tool "Walltracer" is little script aiming to draw statictics on not authorized incoming ip requests recorded by a firewall installed on a basic internet server.
-This is what someones call the "Internet Background Noise". So I created some firewall rules as a spider web to catch theses undesirables requests and then I developped these scripts to better watch and understand what was knocking at my closed doors.
+This tool "Walltracer" is a little script aiming to draw statictics on not authorized incoming ip requests recorded by a firewall installed on a basic internet server.
+This is what some call the "Internet Background Noise". So I created firewall rules to catch theses undesirables requests when they occurs. Then I developped these scripts to better watch and understand what was knocking at my closed doors.
 
 ## How to use
 
